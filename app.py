@@ -3,12 +3,12 @@ import mysql.connector
 
 
 app = Flask(__name__)
-app.secret_key = 'Shree2017@Bindhu2007$RathnaShankar' #Add your secret key here  
+app.secret_key = '' #Add your secret key here  
 db = mysql.connector.connect(
-    host='localhost',
-    user='root', #add your username here
-    password='m20b17sr1',#add your password here
-    database='attendance_system' # add your db name here
+    host='hostname',
+    user='', #add your username here
+    password='',#add your password here
+    database='' # add your db name here
 )
 
 @app.route('/')
